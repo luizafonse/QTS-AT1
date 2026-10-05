@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+app/__init__.py
+app/aprovacao.py
+sistema_aprovacao_aluno.egg-info/PKG-INFO
+sistema_aprovacao_aluno.egg-info/SOURCES.txt
+sistema_aprovacao_aluno.egg-info/dependency_links.txt
+sistema_aprovacao_aluno.egg-info/top_level.txt
+tests/test_classificacao_unit.py
+tests/test_recuperacao_unit.py
+tests/test_validacoes_unit.py

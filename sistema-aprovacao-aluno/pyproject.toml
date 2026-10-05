@@ -1,0 +1,32 @@
+[project]
+name = "sistema-aprovacao-aluno"
+version = "0.1.0"
+description = "Regras de negocio de aprovacao de aluno com suite de testes unitarios, cobertura de ramos e governanca de IA"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.0",
+    "pytest-cov>=5.0.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "unit: Testes unitarios isolados",
+    "integration: Testes de integracao entre componentes",
+]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v --strict-markers"
+
+[tool.coverage.run]
+source = ["app"]
+branch = true
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 100
