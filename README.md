@@ -1,5 +1,5 @@
 # Sistema de Aprovação de Aluno - Testes Unitários, Cobertura e Governança de IA
-
+Afonso Luiz Soares Batista - DSM¨6
 Projeto da **AT1 de Qualidade e Teste de Software (QTS)**: regras de negócio de aprovação de aluno em Python, validadas por uma suíte de testes unitários com **Pytest**, aplicando **Particionamento de Equivalência (EP)**, **Análise do Valor Limite (BVA)** e **Error Guessing**, com medição de cobertura de linhas e ramos via **pytest-cov** e documentação de governança de IA.
 
 ---
